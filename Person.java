@@ -25,4 +25,9 @@ public class Person {
 		this.address = address;
 	}
 	
+	public String toStrin() {
+		String str ="Your Name : "+getName()+"\nYour Address : "+getAddress();
+		return str;
+	}
+	
 }
